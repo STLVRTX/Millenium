@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\stud\OneDrive - bib &amp; FHDW\C# Workspace\Millenium\Test1\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Finish.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Highscores.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menu_1Player.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menu_ModeSelect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menu_2Player.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Silver.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Finish.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Highscores.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menu_1Player.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menu_ModeSelect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menu_2Player.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Silver.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

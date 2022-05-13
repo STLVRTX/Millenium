@@ -1,0 +1,11 @@
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\Millenium.pdb
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\clrcompression.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\clrjit.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\coreclr.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\mscordaccore.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\D3DCompiler_47_cor3.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\PenImc_cor3.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\PresentationNative_cor3.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\vcruntime140_cor3.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\wpfgfx_cor3.dll
+C:\Users\stud\Desktop\Neuer Ordner\Neuer Ordner\Millenium.exe

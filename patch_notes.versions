@@ -1,0 +1,17 @@
+Millenium
+By Marko Simon
+
+Patch Notes:
+
+V1.0.2 - 13.05.2022
+- Millenium is now completely in English
+- Added "Back"-Button to gamemode selection
+- Added "Back"-Button to 1Player name input screen
+- Added "Back"-Button to 2Player name input screen
+- GitHub release
+
+V1.0.1 - 05.12.2021
+- Fixed Highscores.json-Path leading to program launch failure
+
+V1.0.0 - 05.12.2021
+- Initial Release

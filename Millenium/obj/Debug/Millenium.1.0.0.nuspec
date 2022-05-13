@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Millenium</id>
+    <version>1.0.0</version>
+    <authors>Millenium</authors>
+    <icon>Millenium_Icon.png</icon>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/Images/Icon/MilleniumIcon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\marko\OneDrive - bib &amp; FHDW\C# Workspace\Millenium\Test1\bin\Debug\net6.0-windows\Millenium.runtimeconfig.json" target="lib\net6.0-windows7.0\Millenium.runtimeconfig.json" />
+    <file src="C:\Users\marko\OneDrive - bib &amp; FHDW\C# Workspace\Millenium\Test1\bin\Debug\net6.0-windows\Millenium.dll" target="lib\net6.0-windows7.0\Millenium.dll" />
+    <file src="C:\Users\marko\OneDrive - bib &amp; FHDW\C# Workspace\Millenium\Test1\Images\Icon\MilleniumIcon.ico" target="content\Images\Icon\MilleniumIcon.ico" />
+    <file src="C:\Users\marko\OneDrive - bib &amp; FHDW\C# Workspace\Millenium\Test1\Images\Icon\MilleniumIcon.ico" target="contentFiles\any\net6.0-windows7.0\Images\Icon\MilleniumIcon.ico" />
+    <file src="C:\Users\marko\OneDrive - bib &amp; FHDW\C# Workspace\Millenium\Test1\Millenium_Icon.png" target="\Millenium_Icon.png" />
+  </files>
+</package>

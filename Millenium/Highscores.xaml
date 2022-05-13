@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="Millenium.Highscores"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="750" d:DesignWidth="450">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="377*"/>
+            <ColumnDefinition Width="35*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="73*"/>
+            <RowDefinition Height="17*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/EN_en/Millenium_Highscores_en.png"/>
+        </Grid.Background>
+        <Button x:Name="ButtonMenu" Content="Menu" HorizontalAlignment="Center" VerticalAlignment="Center" Width="285" Height="40" Margin="1,3,0,0" Background="#FF646464" FontFamily="Gill Sans MT" Click="ButtonMenu_Click" Foreground="White" Grid.Column="1" Grid.Row="2" FontSize="22"/>
+        <Grid x:Name="HighscoreTable" Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="238*"/>
+                <ColumnDefinition Width="96*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="Ranking0" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" />
+            <TextBlock x:Name="Name0" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="1" />
+            <TextBlock x:Name="Score0" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="2" />
+            <TextBlock x:Name="Ranking1" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="1" />
+            <TextBlock x:Name="Name1" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="1" Grid.Column="1" />
+            <TextBlock x:Name="Score1" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="1" Grid.Column="2" />
+            <TextBlock x:Name="Ranking2" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="2" />
+            <TextBlock x:Name="Name2" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="2" Grid.Column="1" />
+            <TextBlock x:Name="Score2" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="2" Grid.Column="2" />
+            <TextBlock x:Name="Ranking3" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34"  Grid.Row="3" />
+            <TextBlock x:Name="Name3" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="3" Grid.Column="1" />
+            <TextBlock x:Name="Score3" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="3" Grid.Column="2" />
+            <TextBlock x:Name="Ranking4" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="4"/>
+            <TextBlock x:Name="Name4" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="4" Grid.Column="1" />
+            <TextBlock x:Name="Score4" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="4" Grid.Column="2" />
+            <TextBlock x:Name="Ranking5" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34"  Grid.Row="5"/>
+            <TextBlock x:Name="Name5" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="5" Grid.Column="1" />
+            <TextBlock x:Name="Score5" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="5" Grid.Column="2" />
+            <TextBlock x:Name="Ranking6" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="6"/>
+            <TextBlock x:Name="Name6" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="1" Grid.Row="6"/>
+            <TextBlock x:Name="Score6" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="2" Grid.Row="6"/>
+            <TextBlock x:Name="Ranking7" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="7"/>
+            <TextBlock x:Name="Name7" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="1" Grid.Row="7"/>
+            <TextBlock x:Name="Score7" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="2" Grid.Row="7" />
+            <TextBlock x:Name="Ranking8" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="8" />
+            <TextBlock x:Name="Name8" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="1" Grid.Row="8" />
+            <TextBlock x:Name="Score8" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="2" Grid.Row="8" />
+            <TextBlock x:Name="Ranking9" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Row="9" />
+            <TextBlock x:Name="Name9" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Center" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="1" Grid.Row="9" />
+            <TextBlock x:Name="Score9" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" Foreground="White" TextAlignment="Left" FontFamily="Gill Sans MT" FontSize="34" Grid.Column="2" Grid.Row="9" />
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,5 @@
+C:\Users\stud\OneDrive - bib & FHDW\C# Workspace\Millenium\Test1\bin\Release\net5.0-windows\publish\Millenium.exe
+C:\Users\stud\OneDrive - bib & FHDW\C# Workspace\Millenium\Test1\bin\Release\net5.0-windows\publish\Millenium.dll
+C:\Users\stud\OneDrive - bib & FHDW\C# Workspace\Millenium\Test1\bin\Release\net5.0-windows\publish\Millenium.deps.json
+C:\Users\stud\OneDrive - bib & FHDW\C# Workspace\Millenium\Test1\bin\Release\net5.0-windows\publish\Millenium.runtimeconfig.json
+C:\Users\stud\OneDrive - bib & FHDW\C# Workspace\Millenium\Test1\bin\Release\net5.0-windows\publish\Millenium.pdb

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BE1ven1NyQ2hGCATdxZZFqDOiIb7kjbNM7A/cuQ0DY3lIh6zJEziMfcPGXYWAPjUvId3W0ZMxxTwEHrs4Avr7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stud\\OneDrive - bib & FHDW\\C# Workspace\\Millenium\\Test1\\Millenium.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stud\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.12\\microsoft.netcore.app.runtime.win-x86.5.0.12.nupkg.sha512",
+    "C:\\Users\\stud\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.12\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.12.nupkg.sha512",
+    "C:\\Users\\stud\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.12\\microsoft.aspnetcore.app.runtime.win-x86.5.0.12.nupkg.sha512",
+    "C:\\Users\\stud\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\5.0.12\\microsoft.netcore.app.host.win-x86.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
